@@ -31,4 +31,4 @@ The magic behind the auto-reloading feature is `inotify-tools`. When the `nginx.
 For further details, refer to the provided Dockerfile and entrypoint.sh.
 
 ## Contributions & Support
-This project is designed and maintained by Eflyn. Contributions, feedback, and issues are welcome. Get in touch through Eflyn's official channels.
+This project is designed and maintained by Eflyn. Contributions, feedback, and issues are welcome.
