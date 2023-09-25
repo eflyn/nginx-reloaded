@@ -1,6 +1,8 @@
 # nginx-reloaded
 
-`nginx-reloaded` is a simple, yet powerful alternative to the default nginx Docker image. This container runs a self-reloading nginx server and works well when mounting `nginx.conf` as a ConfigMap in Kubernetes environments.
+`nginx-reloaded` is a simple and straightforward alternative to the default nginx Docker image which adds support for automatic silent reloads anytime `nginx.conf` is updated.
+
+By providing a thin layer on top of the standard nginx:latest this image leverages ionotify to run silent reloads in the background when the conf file changes without using a sidecar or complicated workarounds. It was primairly designed to run in Kubernetes environments that use a ConfigMap to mount and update server configuration.
 
 ## Features
 
